@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+pod 'MKStoreKit', '4.99'
+pod 'AFNetworking'
+pod 'UIAlertView+Blocks'
