@@ -1,0 +1,15 @@
+"Alert IAP masked error Title" = "Purchase limit error ";
+"Alert IAP masked error Msg" = "Setting.app [General]>[Restrictions]>[In-App Purchases] ON";
+
+"Alert Network error Title" = "Network Error";
+"Alert Network error Msg" = "Check your network connection.";
+
+"Alert iTunesStore error Title" = "Can't connect to the iTunes Store";
+"Alert iTunesStore error Msg" = "The iTunes Store is temporarily unavailable. Please try again later.";
+
+"Error" = "Error";
+"SKError Unknown" = "Unknown";
+"SKError ClientInvalid" = "Client invalid";
+"SKError Cancel" = "Cancel";
+"SKError PaymentInvalid" = "Payment invalid";
+"SKError PaymentNotAllowed" = "Payment not allowed";
