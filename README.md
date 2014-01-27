@@ -1,4 +1,4 @@
-#YSStoreKitHelper
+#YSStoreKit
 
 IAPの面倒くさい処理をまとめました。
 
@@ -8,6 +8,9 @@ IAPの面倒くさい処理をまとめました。
 - Non-Consumables
 - Auto-Renewable Subscriptions
 
-
 # MKStoreKitの仕様
 MKStoreKitに依存しているのでMKStoreKitConfigs.plistを用意する必要があります。[仕様](http://blog.mugunthkumar.com/coding/mkstorekit-4-0-supporting-auto-renewable-subscriptions/)
+
+#ローカライズ対応
+- 日本語
+- 英語
