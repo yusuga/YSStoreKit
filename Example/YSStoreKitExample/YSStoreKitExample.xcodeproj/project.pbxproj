@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8647ED318990EF9006DB647 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8647ED118990EF9006DB647 /* MKStoreKitConfigs.plist */; };
+		B8647ED6189917E2006DB647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8647ED5189917E2006DB647 /* ViewController.m */; };
 		B8B7E2941896284400D9B472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7E2931896284400D9B472 /* Foundation.framework */; };
 		B8B7E2961896284400D9B472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7E2951896284400D9B472 /* CoreGraphics.framework */; };
 		B8B7E2981896284400D9B472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7E2971896284400D9B472 /* UIKit.framework */; };
@@ -26,8 +28,6 @@
 		B8B7E2DA189628CE00D9B472 /* YSStoreKitAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7E2D2189628CE00D9B472 /* YSStoreKitAlert.m */; };
 		B8B7E2DB189628CE00D9B472 /* YSStoreKitFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7E2D4189628CE00D9B472 /* YSStoreKitFunction.m */; };
 		B8B7E2DC189628CE00D9B472 /* YSStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7E2D6189628CE00D9B472 /* YSStoreKit.m */; };
-		B8B7E2E0189628F300D9B472 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8B7E2DE189628F300D9B472 /* MKStoreKitConfigs.plist */; };
-		B8B7E2E31896296900D9B472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B7E2E21896296900D9B472 /* ViewController.m */; };
 		B8B7E2E618962E2D00D9B472 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7E2E518962E2D00D9B472 /* StoreKit.framework */; };
 		C50252E947F046DF835494A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEE0FD123D346C38F8F9F44 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -44,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		6AEE0FD123D346C38F8F9F44 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8647ED118990EF9006DB647 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MKStoreKitConfigs.plist; path = Config/MKStoreKitConfigs.plist; sourceTree = SOURCE_ROOT; };
+		B8647ED218990EF9006DB647 /* YSStoreKitIAPProductIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSStoreKitIAPProductIds.h; path = Config/YSStoreKitIAPProductIds.h; sourceTree = SOURCE_ROOT; };
+		B8647ED4189917E2006DB647 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8647ED5189917E2006DB647 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B8B7E2901896284400D9B472 /* YSStoreKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSStoreKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B7E2931896284400D9B472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8B7E2951896284400D9B472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,10 +76,6 @@
 		B8B7E2D4189628CE00D9B472 /* YSStoreKitFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStoreKitFunction.m; sourceTree = "<group>"; };
 		B8B7E2D5189628CE00D9B472 /* YSStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStoreKit.h; sourceTree = "<group>"; };
 		B8B7E2D6189628CE00D9B472 /* YSStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStoreKit.m; sourceTree = "<group>"; };
-		B8B7E2DE189628F300D9B472 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
-		B8B7E2DF189628F300D9B472 /* YSStoreKitIAPProductIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStoreKitIAPProductIds.h; sourceTree = "<group>"; };
-		B8B7E2E11896296900D9B472 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../../YSStoreKitHelper/Example/YSStoreKitHelperExample/YSStoreKitHelperExample/ViewController.h; sourceTree = "<group>"; };
-		B8B7E2E21896296900D9B472 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../../YSStoreKitHelper/Example/YSStoreKitHelperExample/YSStoreKitHelperExample/ViewController.m; sourceTree = "<group>"; };
 		B8B7E2E418962E1E00D9B472 /* YSStoreKitExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YSStoreKitExample.entitlements; sourceTree = "<group>"; };
 		B8B7E2E518962E2D00D9B472 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EFA3F5BF4DAE454FB5E3387B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 				B8B7E2A21896284400D9B472 /* AppDelegate.h */,
 				B8B7E2A31896284400D9B472 /* AppDelegate.m */,
 				B8B7E2A51896284400D9B472 /* Main.storyboard */,
-				B8B7E2E11896296900D9B472 /* ViewController.h */,
-				B8B7E2E21896296900D9B472 /* ViewController.m */,
+				B8647ED4189917E2006DB647 /* ViewController.h */,
+				B8647ED5189917E2006DB647 /* ViewController.m */,
 				B8B7E2AB1896284400D9B472 /* Images.xcassets */,
 				B8B7E29A1896284400D9B472 /* Supporting Files */,
 			);
@@ -223,8 +223,8 @@
 		B8B7E2DD189628F300D9B472 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				B8B7E2DE189628F300D9B472 /* MKStoreKitConfigs.plist */,
-				B8B7E2DF189628F300D9B472 /* YSStoreKitIAPProductIds.h */,
+				B8647ED118990EF9006DB647 /* MKStoreKitConfigs.plist */,
+				B8647ED218990EF9006DB647 /* YSStoreKitIAPProductIds.h */,
 			);
 			name = Config;
 			path = ../../../YSStoreKitHelper/Example/YSStoreKitHelperExample/Config;
@@ -323,9 +323,9 @@
 				B8B7E2D9189628CE00D9B472 /* YSStoreKitActivityIndicatorView.xib in Resources */,
 				B8B7E2D7189628CE00D9B472 /* YSStoreKitLocalizable.strings in Resources */,
 				B8B7E2AC1896284400D9B472 /* Images.xcassets in Resources */,
-				B8B7E2E0189628F300D9B472 /* MKStoreKitConfigs.plist in Resources */,
 				B8B7E29E1896284400D9B472 /* InfoPlist.strings in Resources */,
 				B8B7E2A71896284400D9B472 /* Main.storyboard in Resources */,
+				B8647ED318990EF9006DB647 /* MKStoreKitConfigs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B7E2E31896296900D9B472 /* ViewController.m in Sources */,
+				B8647ED6189917E2006DB647 /* ViewController.m in Sources */,
 				B8B7E2DA189628CE00D9B472 /* YSStoreKitAlert.m in Sources */,
 				B8B7E2DB189628CE00D9B472 /* YSStoreKitFunction.m in Sources */,
 				B8B7E2DC189628CE00D9B472 /* YSStoreKit.m in Sources */,
